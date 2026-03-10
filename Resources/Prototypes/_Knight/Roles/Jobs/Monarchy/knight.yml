@@ -1,0 +1,29 @@
+- type: job
+  id: Knight
+  name: Knight
+  description: "Protect The king"
+  playTimeTracker: JobKnight
+  startingGear: KnightGear
+  icon: "JobIconKnight"
+  goobcoins: 30 #Goob content
+  access:
+  - Service
+  - Maintenance
+#ClothingBackpackSatchelLeather
+- type: startingGear
+  id: KnightGear
+  equipment:
+    jumpsuit: ClothingUniformJumpsuitColorBrown
+    head: CardHelmet
+    ears: ClothingHeadsetService
+    outerClothing: CardArmour
+    gloves: ClothingHandsGlovesColorLightBrown
+    back: ClothingBackpackSatchelSalvage
+    shoes: ClothingShoesBootsCowboyBrown
+    suitstorage: CardSword
+    id: KnightPDA
+#    pocket1: d20Dice
+#    pocket2: HandLabeler # for making named bestsellers
+#  storage:
+#    back:
+#    - BookRandom

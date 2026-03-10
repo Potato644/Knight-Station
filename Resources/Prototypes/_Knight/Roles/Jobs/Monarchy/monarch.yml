@@ -1,0 +1,36 @@
+- type: job
+  id: Monarch
+  name: job-name-monarch
+  description: job-description-monarch
+  playTimeTracker: JobMonarch
+  startingGear: MonarchGear
+  icon: "JobIconMonarch"
+  supervisors: job-supervisors-hop
+  goobcoins: 30 #Goob content
+  access:
+  - Service
+  - Maintenance
+  special: # Goobstation start - Librarian should speak most languages.
+
+- type: startingGear
+  id: MonarchGear
+  equipment:
+    shoes: ClothingShoesBootsLaceup
+    id: MonarchPDA
+    ears: ClothingHeadsetService
+    pocket1: d20Dice
+    pocket2: HandLabeler # for making named bestsellers
+  storage:
+    back:
+    - BookRandom
+
+- type: chameleonOutfit
+  id: LibrarianChameleonOutfit
+  job: Librarian
+  equipment:
+    head: ClothingHeadHatCanadaBeanie
+    eyes: ClothingEyesGlassesJamjar
+    mask: ClothingMaskGas
+    neck: ClothingNeckScarfStripedGreen
+    outerClothing: ClothingOuterWinterColorGreen
+    gloves: ClothingHandsGlovesColorBlack

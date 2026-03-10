@@ -1,0 +1,11 @@
+- type: entity
+  parent: IDCardStandard
+  id: KnightIDCard
+  name: knight ID card
+  components:
+  - type: Sprite
+    layers:
+    - state: default
+    - state: idcook
+  - type: PresetIdCard
+    job: Knight

@@ -1,0 +1,16 @@
+- type: roleLoadout
+  id: JobKnight
+  groups:
+  - GroupTankHarness
+  - KnightHead
+  - KnightMask
+  - KnightJumpsuit
+  - KnightBackpack
+  - KnightOuterClothing
+  - KnightGloves
+  - KnightShoes
+  - Glasses
+  - Survival
+  - Trinkets
+  - Animals
+  - GroupSpeciesBreathTool

@@ -1,0 +1,29 @@
+- type: loadout
+  id: KnightJumpsuit
+  equipment:
+    jumpsuit: ClothingUniformJumpsuitColorBrown
+
+- type: loadout
+  id: KnightHead
+  equipment:
+    head: CardHelmet
+
+- type: loadout
+  id: KnightOuterClothing
+  equipment:
+    outerClothing: CardArmour
+
+- type: loadout
+  id: KnightGloves
+  equipment:
+    gloves: ClothingHandsGlovesColorLightBrown
+
+- type: loadout
+  id: KnightBackpack
+  equipment:
+    back: ClothingBackpackSatchelLeather
+
+- type: loadout
+  id: KnightShoes
+  equipment:
+    shoes: ClothingShoesBootsCowboyBrown
