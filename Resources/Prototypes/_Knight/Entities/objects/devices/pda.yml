@@ -10,8 +10,8 @@
     appearanceDataInit:
       enum.PdaVisuals.PdaType:
         !type:String
-        pda-cook
+        pda-knight
   - type: PdaBorderColor
-    borderColor: "#d7d7d0"
+    borderColor: "#b4865d"
   - type: Icon
-    state: pda-cook
+    state: pda-knight

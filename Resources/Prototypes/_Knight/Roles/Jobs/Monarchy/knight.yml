@@ -1,15 +1,15 @@
+---
 - type: job
   id: Knight
   name: Knight
-  description: "Protect The king"
+  description: Protect The Monarch
   playTimeTracker: JobKnight
   startingGear: KnightGear
-  icon: "JobIconKnight"
-  goobcoins: 30 #Goob content
+  icon: JobIconKnight
+  goobcoins: 30
   access:
   - Service
   - Maintenance
-#ClothingBackpackSatchelLeather
 - type: startingGear
   id: KnightGear
   equipment:
@@ -22,8 +22,6 @@
     shoes: ClothingShoesBootsCowboyBrown
     suitstorage: CardSword
     id: KnightPDA
-#    pocket1: d20Dice
-#    pocket2: HandLabeler # for making named bestsellers
-#  storage:
-#    back:
-#    - BookRandom
+  storage:
+    back:
+    - MaterialCardboard

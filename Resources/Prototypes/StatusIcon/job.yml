@@ -571,3 +571,11 @@
     sprite: /Textures/Interface/Misc/job_icons.rsi
     state: SecurityClown
   allowSelection: false
+
+- type: jobIcon
+  parent: JobIcon
+  id: JobIconKnight #Knight
+  icon:
+    sprite: /Textures/Interface/Misc/job_icons.rsi
+    state: Knight
+  allowSelection: false

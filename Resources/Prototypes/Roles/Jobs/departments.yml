@@ -267,3 +267,11 @@
   - Zookeeper
   - Psychologist
   primary: false
+
+- type: department
+  id: Monarchy
+  name: Monarchy
+  description: The Monarch's Kingdom
+  color: "#D381C9"
+  roles:
+  - Knight
