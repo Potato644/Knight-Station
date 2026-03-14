@@ -50,6 +50,9 @@
   - GenpopLeave
   - Robotics #Goob
   - Journalism #Goob
+  - Monarchy #Knight
+  - Monarch #Knight
+  - Barracks #Knight
 
 - type: accessGroup
   id: General

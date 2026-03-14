@@ -87,6 +87,9 @@
       - Theatre
       - GenpopEnter
       - GenpopLeave
+      - Monarchy #Knight
+      - Monarch #Knight
+      - Barracks #Knight
       privilegedIdSlot:
         name: id-card-console-privileged-id
         ejectSound: /Audio/Machines/id_swipe.ogg
@@ -172,6 +175,9 @@
     - Xenoborg
     - GenpopEnter
     - GenpopLeave
+    - Monarchy #Knight
+    - Monarch #Knight
+    - Barracks #Knight
     privilegedIdSlot:
       name: id-card-console-privileged-id
       startingItem: UniversalIDCard

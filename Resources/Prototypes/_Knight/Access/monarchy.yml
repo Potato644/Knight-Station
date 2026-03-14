@@ -1,0 +1,11 @@
+- type: accessLevel
+  id: Monarchy
+  name: Monarchy
+
+- type: accessLevel
+  id: Monarch
+  name: Monarch
+
+- type: accessLevel
+  id: Barracks
+  name: Barracks

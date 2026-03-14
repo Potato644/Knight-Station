@@ -8,14 +8,15 @@
   icon: JobIconKnight
   goobcoins: 30
   access:
-  - Service
+  - Monarchy
   - Maintenance
+  - Barracks
 - type: startingGear
   id: KnightGear
   equipment:
     jumpsuit: ClothingUniformJumpsuitColorBrown
     head: CardHelmet
-    ears: ClothingHeadsetService
+    ears: ClothingHeadsetMonarchy
     outerClothing: CardArmour
     gloves: ClothingHandsGlovesColorLightBrown
     back: ClothingBackpackSatchelSalvage

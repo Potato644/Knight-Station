@@ -1,0 +1,6 @@
+- type: radioChannel
+  id: Monarchy
+  name: Monarchy
+  keycode: 'o'
+  frequency: 180
+  color: "#91E8E5"

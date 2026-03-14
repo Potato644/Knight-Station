@@ -1,0 +1,13 @@
+- type: entity
+  parent: ClothingHeadset
+  id: ClothingHeadsetMonarchy
+  name: monarchy headset
+  description: A headset used by the King's subjects.
+  components:
+  - type: ContainerFill
+    containers:
+      key_slots:
+      - EncryptionKeyMonarchy
+      - EncryptionKeyCommon
+  - type: Sprite
+    sprite: Clothing/Ears/Headsets/base.rsi

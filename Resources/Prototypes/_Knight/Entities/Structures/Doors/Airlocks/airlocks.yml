@@ -1,0 +1,47 @@
+- type: entity
+  parent: AirlockGlass
+  id: AirlockMonarchy
+  suffix: Monarchy
+  components:
+  - type: ContainerFill
+    containers:
+      board: [ DoorElectronicsMonarchy ]
+  - type: Sprite
+    sprite: _Goobstation/Structures/Doors/Airlocks/Glass/robotics.rsi
+  - type: PaintableAirlock
+    department: Science
+    group: Glass
+  - type: Wires
+    layoutId: AirlockScience
+
+- type: entity
+  parent: AirlockGlass
+  id: AirlockMonarch
+  suffix: Monarch
+  components:
+  - type: ContainerFill
+    containers:
+      board: [ DoorElectronicsMonarch ]
+  - type: Sprite
+    sprite: _Goobstation/Structures/Doors/Airlocks/Glass/robotics.rsi
+  - type: PaintableAirlock
+    department: Science
+    group: Glass
+  - type: Wires
+    layoutId: AirlockScience
+
+- type: entity
+  parent: AirlockGlass
+  id: AirlockBarracks
+  suffix: Barracks
+  components:
+  - type: ContainerFill
+    containers:
+      board: [ DoorElectronicsBarracks ]
+  - type: Sprite
+    sprite: _Goobstation/Structures/Doors/Airlocks/Glass/robotics.rsi
+  - type: PaintableAirlock
+    department: Science
+    group: Glass
+  - type: Wires
+    layoutId: AirlockScience

@@ -1,0 +1,26 @@
+- type: entity
+  parent: AirlockMonarchy
+  id: AirlockMonarchyLocked
+  suffix: Monarchy, Locked
+  components:
+  - type: ContainerFill
+    containers:
+      board: [ DoorElectronicsMonarchy ]
+
+- type: entity
+  parent: AirlockMonarch
+  id: AirlockMonarchLocked
+  suffix: Monarch, Locked
+  components:
+  - type: ContainerFill
+    containers:
+      board: [ DoorElectronicsMonarch ]
+
+- type: entity
+  parent: AirlockBarracks
+  id: AirlockBarracksLocked
+  suffix: Barracks, Locked
+  components:
+  - type: ContainerFill
+    containers:
+      board: [ DoorElectronicsBarracks ]

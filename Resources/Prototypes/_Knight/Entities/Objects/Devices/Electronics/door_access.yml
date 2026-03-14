@@ -1,0 +1,23 @@
+- type: entity
+  parent: DoorElectronics
+  id: DoorElectronicsMonarchy
+  suffix: Monarchy, Locked
+  components:
+  - type: AccessReader
+    access: [["Monarchy"]]
+
+- type: entity
+  parent: DoorElectronics
+  id: DoorElectronicsMonarch
+  suffix: Monarch, Locked
+  components:
+  - type: AccessReader
+    access: [["Monarch"]]
+
+- type: entity
+  parent: DoorElectronics
+  id: DoorElectronicsBarracks
+  suffix: Barracks, Locked
+  components:
+  - type: AccessReader
+    access: [["Barracks"]]
