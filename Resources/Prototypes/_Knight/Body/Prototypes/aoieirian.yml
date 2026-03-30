@@ -1,0 +1,55 @@
+- type: body
+  id: Aoieirian
+  name: "aoieirian"
+  root: chest
+  slots:
+    head:
+      part: HeadAoieirian
+      connections:
+      - chest
+      organs:
+        brain: OrganAoieirianBrain
+        eyes: OrganAoieirianEyes
+    chest:
+      part: ChestAoieirian
+      connections:
+      - groin
+      - right arm
+      - left arm
+      - head # Shitmed
+      organs:
+        heart: OrganAoieirianHeart
+        lungs: OrganAoieirianLungs
+    groin:
+      part: GroinAoieirian
+      connections:
+      - right leg
+      - left leg
+      organs:
+        stomach: OrganAoieirianStomach
+        liver: OrganAoieirianLiver
+        kidneys: OrganAoieirianKidneys
+    right arm:
+      part: RightArmAoieirian
+      connections:
+      - right hand
+    left arm:
+      part: LeftArmAoieirian
+      connections:
+      - left hand
+    right hand:
+      part: RightHandAoieirian
+    left hand:
+      part: LeftHandAoieirian
+    right leg:
+      part: RightLegAoieirian
+      connections:
+      - right foot
+    left leg:
+      part: LeftLegAoieirian
+      connections:
+      - left foot
+    right foot:
+      part: RightFootAoieirian
+    left foot:
+      part: LeftFootAoieirian

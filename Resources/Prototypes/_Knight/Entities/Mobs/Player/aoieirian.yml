@@ -1,0 +1,105 @@
+- type: entity
+  save: false
+  name: Urist McBlu
+  parent: BaseMobAoieirian
+  id: MobAoieirian
+
+#Syndie
+- type: entity
+  parent: MobAoieirian
+  id: MobAoieirianSyndicateAgentBase
+  name: syndicate agent
+  suffix: Aoieirian, Base
+  components:
+  - type: RandomHumanoidAppearance
+    randomizeName: false
+    hair: HairBald
+  - type: Loadout
+    prototypes: [SyndicateOperativeGearExtremelyBasic]
+    roleLoadout: [ RoleSurvivalSyndicate ]
+  - type: RandomMetadata
+    nameSegments: [NamesDeathCommando]
+  - type: NpcFactionMember
+    factions:
+    - Syndicate
+
+- type: entity
+  parent: MobAoieirianSyndicateAgentBase
+  id: MobAoieirianSyndicateAgent
+  name: syndicate agent
+  suffix: Aoieirian, Traitor
+  components:
+  # make the player a traitor once its taken
+  - type: AutoTraitor
+    profile: TraitorReinforcement
+
+- type: entity
+  parent: MobAoieirianSyndicateAgent
+  id: MobAoieirianSyndicateAgentMedic
+  name: syndicate medic
+  components:
+  - type: Loadout
+    prototypes: [SyndicateReinforcementMedic]
+    roleLoadout: [ RoleSurvivalSyndicate ]
+
+- type: entity
+  parent: MobAoieirianSyndicateAgent
+  id: MobAoieirianSyndicateAgentSpy
+  name: syndicate spy
+  components:
+  - type: Loadout
+    prototypes: [SyndicateReinforcementSpy]
+    roleLoadout: [ RoleSurvivalSyndicate ]
+
+- type: entity
+  parent: MobAoieirianSyndicateAgent
+  id: MobAoieirianSyndicateAgentThief
+  name: syndicate thief
+  components:
+  - type: Loadout
+    prototypes: [SyndicateReinforcementThief]
+    roleLoadout: [ RoleSurvivalSyndicate ]
+
+- type: entity
+  parent: MobAoieirianSyndicateAgentBase
+  id: MobAoieirianSyndicateAgentNukeops # Reinforcement exclusive to nukeops uplink
+  suffix: Aoieirian, NukeOps
+  components:
+  - type: NukeOperative
+  - type: RandomMetadata
+    nameSegments:
+    - NamesSyndicateNormal
+    nameFormat: name-format-nukie-operator
+  - type: Loadout
+    prototypes: [SyndicateOperativeReinforcementGear] # goobstation - duke nukies
+
+# Nuclear Operative
+- type: entity
+  categories: [ HideSpawnMenu ]
+  name: Nuclear Operative
+  parent: MobAoieirian
+  id: MobAoieirianNukeOp
+  components:
+  - type: NukeOperative
+  - type: RandomHumanoidAppearance
+
+- type: entity
+  categories: [ HideSpawnMenu ]
+  parent: MobAoieirian
+  id: MobAoieirianLoneNuclearOperative
+  name: Lone Operative
+  components:
+  - type: RandomHumanoidAppearance
+    randomizeName: false
+  - type: NukeOperative
+  - type: Loadout
+    prototypes: [SyndicateLoneOperativeGearFull]
+    roleLoadout: [ RoleSurvivalSyndicate ]
+  - type: RandomMetadata
+    nameSegments:
+    - NamesSyndicatePrefix
+    - NamesSyndicateNormal
+    nameFormat: name-format-nukie-generic
+  - type: NpcFactionMember
+    factions:
+    - Syndicate

@@ -1,0 +1,141 @@
+- type: entity
+  id: PartAoieirian
+  parent: [BaseItem, BasePart]
+  name: "aoieirian body part"
+  abstract: true
+  components:
+  - type: Icon # Shitmed Change
+    sprite: Mobs/Species/Aoieirian/parts.rsi
+  - type: BodyPart # Shitmed Change
+    species: Aoieirian
+  - type: Extractable
+    juiceSolution:
+      reagents:
+      - ReagentId: Fat
+        Quantity: 3
+      - ReagentId: Blood
+        Quantity: 10
+
+- type: entity
+  id: ChestAoieirian
+  name: "aoieirian chest"
+  parent: [PartAoieirian, BaseChest]
+  components:
+  - type: Sprite
+    sprite: Mobs/Species/Aoieirian/parts.rsi
+    state: "chest_m"
+  - type: Extractable
+    juiceSolution:
+      reagents:
+      - ReagentId: Fat
+        Quantity: 10
+      - ReagentId: Blood
+        Quantity: 20
+
+- type: entity
+  id: GroinAoieirian
+  name: "aoieirian groin"
+  parent: [PartAoieirian, BaseGroin]
+  components:
+  - type: Sprite
+    sprite: Mobs/Species/Aoieirian/parts.rsi
+    state: "groin_m"
+  - type: Extractable
+    juiceSolution:
+      reagents:
+      - ReagentId: Fat
+        Quantity: 10
+      - ReagentId: Blood
+        Quantity: 20
+
+- type: entity
+  id: HeadAoieirian
+  name: "aoieirian head"
+  parent: [PartAoieirian, BaseHead]
+  components:
+  - type: Sprite
+    sprite: Mobs/Species/Aoieirian/parts.rsi
+    state: "head_m"
+  - type: Extractable
+    juiceSolution:
+      reagents:
+      - ReagentId: Fat
+        Quantity: 5
+      - ReagentId: Blood
+        Quantity: 10
+
+- type: entity
+  id: LeftArmAoieirian
+  name: "left aoieirian arm"
+  parent: [PartAoieirian, BaseLeftArm]
+  components:
+  - type: Sprite
+    sprite: Mobs/Species/Aoieirian/parts.rsi
+    state: "l_arm"
+
+- type: entity
+  id: RightArmAoieirian
+  name: "right aoieirian arm"
+  parent: [PartAoieirian, BaseRightArm]
+  components:
+  - type: Sprite
+    sprite: Mobs/Species/Aoieirian/parts.rsi
+    state: "r_arm"
+
+- type: entity
+  id: LeftHandAoieirian
+  name: "left aoieirian hand"
+  parent: [PartAoieirian, BaseLeftHand]
+  components:
+  - type: Sprite
+    sprite: Mobs/Species/Aoieirian/parts.rsi
+    state: "l_hand"
+  - type: DoAfterDelayMultiplier # Goobstation
+    multiplier: 0.9
+
+- type: entity
+  id: RightHandAoieirian
+  name: "right aoieirian hand"
+  parent: [PartAoieirian, BaseRightHand]
+  components:
+  - type: Sprite
+    sprite: Mobs/Species/Aoieirian/parts.rsi
+    state: "r_hand"
+  - type: DoAfterDelayMultiplier # Goobstation
+    multiplier: 0.9
+
+- type: entity
+  id: LeftLegAoieirian
+  name: "left aoieirian leg"
+  parent: [PartAoieirian, BaseLeftLeg]
+  components:
+  - type: Sprite
+    sprite: Mobs/Species/Aoieirian/parts.rsi
+    state: "l_leg"
+
+- type: entity
+  id: RightLegAoieirian
+  name: "right aoieirian leg"
+  parent: [PartAoieirian, BaseRightLeg]
+  components:
+  - type: Sprite
+    sprite: Mobs/Species/Aoieirian/parts.rsi
+    state: "r_leg"
+
+- type: entity
+  id: LeftFootAoieirian
+  name: "left aoieirian foot"
+  parent: [PartAoieirian, BaseLeftFoot]
+  components:
+  - type: Sprite
+    sprite: Mobs/Species/Aoieirian/parts.rsi
+    state: "l_foot"
+
+- type: entity
+  id: RightFootAoieirian
+  name: "right aoieirian foot"
+  parent: [PartAoieirian, BaseRightFoot]
+  components:
+  - type: Sprite
+    sprite: Mobs/Species/Aoieirian/parts.rsi
+    state: "r_foot"
