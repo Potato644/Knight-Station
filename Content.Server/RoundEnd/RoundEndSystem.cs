@@ -340,6 +340,8 @@ namespace Content.Server.RoundEnd
                     ("time", time),
                     ("units", Loc.GetString(unitsLocString))));
             Timer.Spawn(countdownTime.Value, AfterEndRoundRestart, _countdownTokenSource.Token);
+
+            _audio.PlayGlobal("/Audio/Announcements/shuttlecentcom.ogg", Filter.Broadcast(), true);
         }
 
         /// <summary>

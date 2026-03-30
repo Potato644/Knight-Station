@@ -104,7 +104,7 @@
       required: false
 
 - type: humanoidBaseSprite
-  id: MobHumanoidEyes
+  id: MobAoieirianEyes
   baseSprite:
     sprite: Mobs/Customization/eyes.rsi
     state: eyes
